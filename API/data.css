@@ -1,0 +1,5 @@
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+tr:hover {background-color: #eaeed6;}

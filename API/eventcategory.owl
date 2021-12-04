@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#"
+     xml:base="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location_is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location_is">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_city -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_city">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_country">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_state -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_state">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#at_location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yashw/ontologies/2021/11/eventcategory#City"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
