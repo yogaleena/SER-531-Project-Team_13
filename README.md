@@ -11,3 +11,6 @@ How to run the project:
 2. Run the data.html file to get the events for that particular location on an HTML page.
 3. Fuseki can be used to query through the data.
 4. Owl files are deployed onto Fuseki server using AWS instances.
+
+Youtube-
+Google Drive-
