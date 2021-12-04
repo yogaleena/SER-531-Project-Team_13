@@ -25,5 +25,7 @@ To start fuseki instances:
    2. http://ec2-18-224-190-72.us-east-2.compute.amazonaws.com:3030/
    3. http://ec2-3-144-164-66.us-east-2.compute.amazonaws.com:3030/
 
+
 Youtube - https://youtu.be/QbS8mHNWHLc
+
 Google Drive - https://drive.google.com/drive/folders/17jc7ZQadIOLMwQt8P7wJsQUv2W5gb_T1?usp=sharing
