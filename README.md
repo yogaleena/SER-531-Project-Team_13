@@ -19,11 +19,16 @@ To start fuseki instances:
    1. ssh -i "fusekitester.pem" ec2-user@ec2-18-216-12-185.us-east-2.compute.amazonaws.com
    2. ssh -i "fusekitester.pem" ec2-user@ec2-18-224-190-72.us-east-2.compute.amazonaws.com
    3. ssh -i "fusekitester.pem" ec2-user@ec2-3-144-164-66.us-east-2.compute.amazonaws.com
-3. Then run these commands to start fuseki server: "cd apache-jena-fuseki-4.2.0/"  and ./fuseki-server
-4. The 3 instances are:
+3. Then run these commands to start fuseki server in each terminal execute: "cd apache-jena-fuseki-4.2.0/"  and :
+   1. for instance one "./fuseki-server --file /home/ec2-user/yasheventdata.owl /eventcategory"
+   2. for instance one "./fuseki-server --file /home/ec2-user/yashtweetdata.owl /projecttweetdata"
+   3. for instance one "./fuseki-server --file /home/ec2-user/yashuserdata.owl /userdata"
+5. The 3 instances are:
    1. http://ec2-18-216-12-185.us-east-2.compute.amazonaws.com:3030/
    2. http://ec2-18-224-190-72.us-east-2.compute.amazonaws.com:3030/
    3. http://ec2-3-144-164-66.us-east-2.compute.amazonaws.com:3030/
+
+
 
 
 Youtube - https://youtu.be/QbS8mHNWHLc
