@@ -29,7 +29,8 @@ To start fuseki instances:
    3. http://ec2-3-144-164-66.us-east-2.compute.amazonaws.com:3030/
 
 
-
+Plugin:
+   1. We used **cellfie** plugin to generate RDF files using the data collected using Twitter API.
 
 Youtube - https://youtu.be/QbS8mHNWHLc
 
